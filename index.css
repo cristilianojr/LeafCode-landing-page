@@ -1,0 +1,174 @@
+
+* {
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(25.38, 25.38, 25.38);
+}
+
+.container-book-cover {
+    /* Background Modificcations */
+    background: linear-gradient(rgba(255, 255, 255, .1), rgba(0, 0, 0, 1)), url('./assets/imgs/book_cover_iamge.webp');
+    height: 90vh;
+    width: 100%;    
+    display: grid;
+    place-items: center;
+}
+
+#book-cover {
+    /* Text modifications */
+    text-align: center;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    padding: 10px 10px;
+}
+
+#book-cover-logo {
+    max-height: 150px;
+}
+
+#book-cover-text-title {
+    font-size: 60px;
+}
+
+#book-cover-text-1 {
+    font-size: 35px;
+}
+
+#book-cover-button {
+    height: 60px;
+    width: 400px;
+    cursor: pointer;
+    background: rgb(255, 87, 87);
+    border-radius: 25px;
+    border-color: rgb(255, 76, 76);
+    color: #fff;
+    font-size: 18px;
+    transition: .3s;
+}
+
+#book-cover-button:hover {
+    background: rgb(212, 150, 150);
+    border-color: rgb(49, 38, 38);
+}
+
+#book-cover-button:active {
+    transform: scale(.98);
+}
+
+/* -------------------------------------------------------- */
+
+.container-services {
+    padding: 5% 5%;
+    background: rgb(228, 228, 228);
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+    display: flex;
+}
+
+.service-item h3 {
+    font-size: 16px;
+}
+
+.service-item p {
+    font-size: 12px;
+}
+
+.service-item-display-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.service-item-display-text {
+    width: 600px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.fas {
+    color: rgb(255, 87, 87);
+    font-size: 50px;
+}
+
+/* -------------------------------------------------------- */
+
+.container-marketing {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container-marketing-text { 
+    display: grid;
+    flex-direction: column;
+    color: #fff;
+    gap: 30px;
+    padding: 35px 35px;
+    justify-content: space-between;
+}
+
+.container-marketing-text h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.container-marketing-text p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.container-marketing-video { 
+    height: 100%;
+}
+
+#marketing-button  {
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+    background: rgb(255, 87, 87);
+    border-radius: 15px;
+    border-color: rgb(255, 76, 76);
+    color: #fff;
+    font-size: 22px;
+    transition: .3s;
+}
+
+#marketing-button:hover {
+    background: rgb(212, 150, 150);
+    border-color: rgb(49, 38, 38);
+}
+
+#marketing-button:active {
+    transform: scale(.98);
+}
+
+/* -------------------------------------------------------- */
+
+.container-baseboard {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    line-height: 200px;
+    justify-content: center;
+}
+
+#copyright {
+    color: white;
+}
